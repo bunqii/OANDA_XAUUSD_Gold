@@ -1,0 +1,89 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_USD",
+  "granularity": "M1",
+  "chunk_start": "2026-10-01",
+  "chunk_end": "2026-10-31",
+  "parquet_file": "OANDA_XAUUSD_Gold_1_2026-10-01_to_2026-10-31.parquet",
+  "data_file": "OANDA_XAUUSD_Gold_1_2026-10-01_to_2026-10-31.parquet",
+  "row_count": 13875,
+  "first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 4156.09,
+    "high": 4156.09,
+    "low": 4153.73,
+    "close": 4153.82,
+    "volume": 489
+  },
+  "last_candle": {
+    "time": 1792029300,
+    "Time": "2026-10-15T01:55:00.000000000Z",
+    "open": 4142.38,
+    "high": 4143.635,
+    "low": 4141.57,
+    "close": 4142.92,
+    "volume": 557
+  },
+  "csv_file": "OANDA_XAUUSD_Gold_1_2026-10-01_to_2026-10-31.parquet",
+  "csv_row_count": 13875,
+  "csv_first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 4156.09,
+    "high": 4156.09,
+    "low": 4153.73,
+    "close": 4153.82,
+    "volume": 489
+  },
+  "csv_last_candle": {
+    "time": 1792029300,
+    "Time": "2026-10-15T01:55:00.000000000Z",
+    "open": 4142.38,
+    "high": 4143.635,
+    "low": 4141.57,
+    "close": 4142.92,
+    "volume": 557
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-15T02:03:18.000000000Z",
+  "generated_at": "2026-10-15T02:03:18.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 5,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-09-30T20:29:00Z",
+        "to": "2026-10-04T07:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-04T07:49:00Z",
+        "to": "2026-10-07T19:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-07T19:09:00Z",
+        "to": "2026-10-11T06:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-11T06:29:00Z",
+        "to": "2026-10-14T17:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-14T17:49:00Z",
+        "to": "2026-10-15T01:56:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

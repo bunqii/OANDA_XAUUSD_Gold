@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_USD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_XAUUSD_Gold_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_XAUUSD_Gold_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2826,
+  "first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 1097.88,
+    "high": 1123.92,
+    "low": 1093.45,
+    "close": 1121.31,
+    "volume": 28588
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 1514.893,
+    "high": 1525.382,
+    "low": 1514.825,
+    "close": 1517.111,
+    "volume": 16774
+  },
+  "csv_file": "OANDA_XAUUSD_Gold_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2826,
+  "csv_first_candle": {
+    "time": 1262556000,
+    "Time": "2010-01-03T22:00:00.000000000Z",
+    "open": 1097.88,
+    "high": 1123.92,
+    "low": 1093.45,
+    "close": 1121.31,
+    "volume": 28588
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 1514.893,
+    "high": 1525.382,
+    "low": 1514.825,
+    "close": 1517.111,
+    "volume": 16774
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T02:03:22.000000000Z",
+  "generated_at": "2026-10-15T02:03:22.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-19T22:00:00Z",
+        "to": "2019-11-26T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2019-11-26T22:00:00Z",
+        "to": "2026-10-14T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

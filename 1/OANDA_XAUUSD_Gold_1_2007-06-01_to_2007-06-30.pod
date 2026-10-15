@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_USD",
+  "granularity": "M1",
+  "chunk_start": "2007-06-01",
+  "chunk_end": "2007-06-30",
+  "parquet_file": "OANDA_XAUUSD_Gold_1_2007-06-01_to_2007-06-30.parquet",
+  "data_file": "OANDA_XAUUSD_Gold_1_2007-06-01_to_2007-06-30.parquet",
+  "row_count": 29012,
+  "first_candle": {
+    "time": 1180656000,
+    "Time": "2007-06-01T00:00:00.000000000Z",
+    "open": 660.95,
+    "high": 660.95,
+    "low": 660.8,
+    "close": 660.95,
+    "volume": 7
+  },
+  "last_candle": {
+    "time": 1183150920,
+    "Time": "2007-06-29T21:02:00.000000000Z",
+    "open": 649.6,
+    "high": 649.6,
+    "low": 649.6,
+    "close": 649.6,
+    "volume": 1
+  },
+  "csv_file": "OANDA_XAUUSD_Gold_1_2007-06-01_to_2007-06-30.parquet",
+  "csv_row_count": 29012,
+  "csv_first_candle": {
+    "time": 1180656000,
+    "Time": "2007-06-01T00:00:00.000000000Z",
+    "open": 660.95,
+    "high": 660.95,
+    "low": 660.8,
+    "close": 660.95,
+    "volume": 7
+  },
+  "csv_last_candle": {
+    "time": 1183150920,
+    "Time": "2007-06-29T21:02:00.000000000Z",
+    "open": 649.6,
+    "high": 649.6,
+    "low": 649.6,
+    "close": 649.6,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T01:57:10.000000000Z",
+  "generated_at": "2026-10-15T01:57:10.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2007-05-31T08:29:00Z",
+        "to": "2007-06-03T19:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-03T19:49:00Z",
+        "to": "2007-06-07T07:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-07T07:09:00Z",
+        "to": "2007-06-10T18:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-10T18:29:00Z",
+        "to": "2007-06-14T05:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-14T05:49:00Z",
+        "to": "2007-06-17T17:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-17T17:09:00Z",
+        "to": "2007-06-21T04:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-21T04:29:00Z",
+        "to": "2007-06-24T15:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-24T15:49:00Z",
+        "to": "2007-06-28T03:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-28T03:09:00Z",
+        "to": "2007-07-01T14:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
