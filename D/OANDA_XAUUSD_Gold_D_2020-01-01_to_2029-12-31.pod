@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1754,
+  "row_count": 1756,
   "first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 18119
   },
   "last_candle": {
-    "time": 1792098000,
-    "Time": "2026-10-15T21:00:00.000000000Z",
-    "open": 4170.22,
-    "high": 4199.08,
-    "low": 4147.16,
-    "close": 4165.42,
-    "volume": 589812
+    "time": 1792443600,
+    "Time": "2026-10-19T21:00:00.000000000Z",
+    "open": 4142.225,
+    "high": 4155.57,
+    "low": 4111.68,
+    "close": 4125.465,
+    "volume": 598232
   },
   "csv_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1754,
+  "csv_row_count": 1756,
   "csv_first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -37,26 +37,26 @@
     "volume": 18119
   },
   "csv_last_candle": {
-    "time": 1792098000,
-    "Time": "2026-10-15T21:00:00.000000000Z",
-    "open": 4170.22,
-    "high": 4199.08,
-    "low": 4147.16,
-    "close": 4165.42,
-    "volume": 589812
+    "time": 1792443600,
+    "Time": "2026-10-19T21:00:00.000000000Z",
+    "open": 4142.225,
+    "high": 4155.57,
+    "low": 4111.68,
+    "close": 4125.465,
+    "volume": 598232
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-16T23:41:34.000000000Z",
-  "generated_at": "2026-10-16T23:41:34.000000000Z",
+  "verified_at": "2026-10-20T22:09:36.000000000Z",
+  "generated_at": "2026-10-20T22:09:36.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 2,
+    "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
     "chunk_permanent_errors": 0,
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2019-11-26T22:00:00Z",
-        "to": "2026-10-16T21:00:00Z",
+        "from": "2026-10-15T20:55:00Z",
+        "to": "2026-10-20T21:00:00Z",
         "code": 200,
         "msg": "OK"
       }
