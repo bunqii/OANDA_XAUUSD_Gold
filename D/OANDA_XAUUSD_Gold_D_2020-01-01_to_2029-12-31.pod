@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1783,
+  "row_count": 1784,
   "first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 18119
   },
   "last_candle": {
-    "time": 1795644000,
-    "Time": "2026-11-25T22:00:00.000000000Z",
-    "open": 3583.5,
-    "high": 3607.245,
-    "low": 3551.34,
-    "close": 3566.3,
-    "volume": 697010
+    "time": 1795730400,
+    "Time": "2026-11-26T22:00:00.000000000Z",
+    "open": 3566.205,
+    "high": 3685.39,
+    "low": 3557.685,
+    "close": 3652.325,
+    "volume": 782857
   },
   "csv_file": "OANDA_XAUUSD_Gold_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1783,
+  "csv_row_count": 1784,
   "csv_first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 18119
   },
   "csv_last_candle": {
-    "time": 1795644000,
-    "Time": "2026-11-25T22:00:00.000000000Z",
-    "open": 3583.5,
-    "high": 3607.245,
-    "low": 3551.34,
-    "close": 3566.3,
-    "volume": 697010
+    "time": 1795730400,
+    "Time": "2026-11-26T22:00:00.000000000Z",
+    "open": 3566.205,
+    "high": 3685.39,
+    "low": 3557.685,
+    "close": 3652.325,
+    "volume": 782857
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-11-27T08:49:27.000000000Z",
-  "generated_at": "2026-11-27T08:49:27.000000000Z",
+  "verified_at": "2026-11-28T08:07:50.000000000Z",
+  "generated_at": "2026-11-28T08:07:50.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-11-23T22:00:00Z",
-        "to": "2026-11-26T22:00:00Z",
+        "from": "2026-11-24T22:00:00Z",
+        "to": "2026-11-27T22:00:00Z",
         "code": 200,
         "msg": "OK"
       }
